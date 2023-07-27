@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0 px;
+  margin: 0px;
+}
+.parent {
+  display: grid;
+  grid-template-rows: 0fr 299px 10px;
+}
+
+.child2 {
+  height: fit-content;
+}
+
+.carousel-item {
+  width: 100vh;
+  height: 100vh;
+  background: #060606d9;
+  position: relative;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.child1 {
+  height: fit-content;
+}
+
+.card_container {
+  display: grid;
+ 
+    grid-template-rows: repeat(3, 50%);
+}
