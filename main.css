@@ -5,7 +5,7 @@
 }
 .parent {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .child2 {
@@ -51,5 +51,23 @@
 .child1 {
   height: fit-content;
 }
+.child3 {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.card_container {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+
+  margin-right: 5rem !important;
+  margin-left: 5rem !important;
+}
