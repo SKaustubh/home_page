@@ -4,8 +4,8 @@
   margin: 0px;
 }
 .parent {
-  display: grid;
-  grid-template-rows: 0fr 299px 10px;
+  display: flex;
+    flex-direction: column;
 }
 
 .child2 {
@@ -52,8 +52,4 @@
   height: fit-content;
 }
 
-.card_container {
-  display: grid;
- 
-    grid-template-rows: repeat(3, 50%);
-}
+
